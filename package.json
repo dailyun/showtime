@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "new:theme": "node scripts/new-theme.mjs"
+    "new:theme": "node scripts/new-theme.mjs",
+    "test": "node --test src/lib/importers/*.test.ts"
   },
   "dependencies": {
     "@astrojs/react": "^7.1.0",
